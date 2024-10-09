@@ -4,7 +4,20 @@
 React / CSS / Typescript / Vite
 
 ## 🍼 Introduction
+After learning some React advanced concepts, I wanted to practice using the useDeferredValue hook including implementing suspense-related concepts. Therefore I created the Colour Names Explorer. Users can explore odd and surprising names given to colours as they filter for them in real-time.
 
 ## 🛠️ Features
+- Loading page to show the whole colour list is loading in
+- Filter colours by name and see results live.
+- Decreased opacity to show when results are changing + become stale
+- Colour name has the colour shade associated with it
+- Responsive design - works on mobile + desktop
 
 ## 📚 Resources
+- How to implement Debounce and Throttle in Javascript - https://blog.webdevsimplified.com/2022-03/debounce-vs-throttle/
+- UseDeferredValue - Video from WDS's React Simplified course
+- Suspense + React.lazy - Video from WDS's React Simplified course
+
+## ➕ Potential features to add
+- Able to click/tap on a colour and see its colour code (RGB and HSL) within a modal
+
