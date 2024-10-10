@@ -12,12 +12,10 @@ After learning some React advanced concepts, I wanted to practice using the useD
 - Decreased opacity to show when results are changing + become stale
 - Colour name has the colour shade associated with it
 - Responsive design - works on mobile + desktop
+- Able to click/tap on a colour and see its colour code (RGB and HSL) within a modal
 
 ## 📚 Resources
 - How to implement Debounce and Throttle in Javascript - https://blog.webdevsimplified.com/2022-03/debounce-vs-throttle/
 - UseDeferredValue - Video from WDS's React Simplified course
 - Suspense + React.lazy - Video from WDS's React Simplified course
-
-## ➕ Potential features to add
-- Able to click/tap on a colour and see its colour code (RGB and HSL) within a modal
 
