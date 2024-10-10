@@ -1,4 +1,5 @@
 # Colour Name Explorer
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6c4a065-e790-4de2-a1c3-00bef4f49585/deploy-status)](https://app.netlify.com/sites/kareenapatel-colournameexplorer/deploys)
 
 ## ⌨️ Tech stack
 React / CSS / Typescript / Vite
