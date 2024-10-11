@@ -18,11 +18,11 @@ li {
     text-wrap: balance;
     cursor: pointer;
 
+    &:hover{
+        background-color: hsl(0, 100%, 99%);
+    }
+
     svg {
         width: 40px;
     }
-}
-
-li:hover{
-    background-color: hsl(0, 100%, 99%);
 }
