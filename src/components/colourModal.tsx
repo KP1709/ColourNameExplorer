@@ -16,17 +16,19 @@ export default function ColourModal({ open, onClose, hexValue }: ModalProps) {
         async function getColourCodes() {
             if (hexValue === undefined) return null
             else
-                try {
-                    const response = await fetch(`https://www.thecolorapi.com/id?hex=${hexValue.substring(1)}&format=json`)
-                    const data = await response.json()
-                    setHslValue(data.hsl.value)
-                    setRgbValue(data.rgb.value)
-                }
-                catch (err) {
-                    setHslValue('Unknown')
-                    setRgbValue('Unknown')
-                    console.error(err)
-                }
+                setHslValue('Loading HSL value ...')
+                setRgbValue('Loading RGB value ...')
+            try {
+                const response = await fetch(`https://www.thecolorapi.com/id?hex=${hexValue.substring(1)}&format=json`)
+                const data = await response.json()
+                setHslValue(data.hsl.value)
+                setRgbValue(data.rgb.value)
+            }
+            catch (err) {
+                setHslValue('Unknown')
+                setRgbValue('Unknown')
+                console.error(err)
+            }
         }
         getColourCodes()
     }, [hexValue])
